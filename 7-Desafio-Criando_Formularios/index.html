@@ -1,0 +1,57 @@
+<!-- 
+    Modelo de Projeto - Figma
+    https://efficient-sloth-d85.notion.site/Criando-formul-rios-462826c68ea54d61b1eff955158d1a6d
+
+    Nesse abordaremos:
+    - Campo select;
+    - Campo checkbox;
+    - Imagem centralizada no header.
+
+    Entrega:
+    https://app.rocketseat.com.br/classroom/stage-03/group/formularios-validacoes-e-customizacoes/challenge/criando-formularios
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avalie o meu Projeto!</title>
+</head>
+<body>
+    <header>
+        <h1>Avalie este Formulário</h1>
+        <p>Este é um dos meus projetos da trilha <strong>Explorer</strong>
+            da <strong>Rocketseat</strong> e gostaria de saber o que achou. Bora lá?
+        </p>
+    </header>
+
+    <form id="my-form">
+
+        <fieldset>
+            <div class="fieldset-wrapper">
+                <legend>Avaliação desse Projeto</legend>
+
+                <div class="input-wrapper">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" required/>
+                  </div>
+
+                  <div class="input-wrapper">
+                    <label for="carrer">Profissão</label>
+                    <input type="text" id="carrer" required/>
+                  </div>
+
+                  <div class="input-wrapper">
+                    <label for="impressoes">Conte suas primeiras impressões</label>
+                    <textarea id="impressoes" required minlength="140"></textarea>
+                  </div>
+            </div>
+        </fieldset>
+
+    </form>
+
+
+
+</body>
+</html>
