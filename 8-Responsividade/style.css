@@ -87,13 +87,16 @@ button {
     }
 
     h1, h2 {
-        font-size: 4rem;
-        line-height: 2.5rem;
+        /* clamp (min, ideal, alto) 
+        ajuta a fazer a transição da responsividade de uma
+        maneira mais suave, contínua e flexível*/
+        font-size: clamp (1.4rem, 2vw + 1rem, 4rem);
+        line-height: clamp (3.6rem, 2vw + 1rem, 5rem);
     }
 
     p, li, strong{
-        font-size: 2rem;
-        line-height: 2.5rem;
+        font-size: clamp (1.4rem, 1vw + 0.4rem, 2rem);
+        line-height: clamp (1.8rem, 1vw + 1rem, 2.5rem);
     } 
 
     button {
